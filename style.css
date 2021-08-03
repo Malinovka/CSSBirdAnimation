@@ -104,7 +104,7 @@ body {
     background-color: var(--darker-brown);
     position: absolute;
     width: 8%;
-    height: 17%;
+    height: 19%;
     border-radius: 50%;
     top: 55%;
     left: 35%;
@@ -124,55 +124,46 @@ body {
 
 #beak-top-outer {
     position: absolute;
-    top: 64%;
-    left: -23%;
-    transform: rotate(-23deg);
-    border-radius: 50px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0px 33px 67px 182px;
-    border-color: transparent transparent var(--dark-brown-accents) transparent;
-
+    top: 49%;
+    left: -13%;
+    width: 60%;
+    transform: rotate(242deg);
+    height: 60%;
+    background-color: var(--dark-brown-accents);
+    clip-path: polygon(50% 0%, 35% 100%, 74% 91%);
 }
 
 #beak-top-inner {
     position: absolute;
-    top: 65%;
-    left: -16%;
-    transform: rotate(-23deg);
-    border-radius: 50px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0px 29px 56px 158px;
-    border-color: transparent transparent var(--darker-brown) transparent;
+    top: 52%;
+    left: -6%;
+    width: 50%;
+    transform: rotate(242deg);
+    height: 50%;
+    background-color: var(--darker-brown);
+    clip-path: polygon(50% 0%, 35% 100%, 74% 91%);
 }
 
 #beak-bottom-outer {
     position: absolute;
-    top: 80%;
-    left: -11%;
-    transform: rotate(-36deg) scaleY(-1);
-    border-radius: 50px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 2px 30px 53px 172px;
-    border-color: transparent transparent var( --dark-brown-accents) transparent;
+    top: 61%;
+    left: -4%;
+    width: 55%;
+    height: 55%;
+    transform: rotate(247deg);
+    clip-path: polygon(51% 0, 43% 94%, 76% 100%);
+    background-color: var(--dark-brown-accents);
 }
 
 #beak-bottom-inner {
     position: absolute;
-    top: 78%;
+    top: 64%;
     left: 4%;
-    transform: rotate(-39deg) scaleY(-1);
-    border-radius: 50px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0px 27px 44px 123px;
-    border-color: transparent transparent var( --darker-brown) transparent;
+    width: 45%;
+    height: 45%;
+    transform: rotate(247deg);
+    clip-path: polygon(51% 0, 43% 94%, 76% 100%);
+    background-color: var(--darker-brown);
 }
 
 .eyes {
